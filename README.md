@@ -2,6 +2,11 @@
 # Zillow Data Analytics Project
 Seamlessly integrated Zillow Rapid API to extract and analyze data.Leveraging Python, Amazon Web Services , Airflow by building an end-to-end data pipeline to process, transform, and visualize Location data.
 Data is Extracted from Zillow Rapid API transformed and placed that in Redshift Cluster. We are able to see Amazing Dashboards in AWS Quicksight.In the Process of ETL we placed the Extracted data from Zillow Rapid API in S3 bucket. We created one backup of this S3 bucket data. We used Lambda functions to create the backup copy of S3 data and transformed the data.
+
+## Architecture
+![image](https://github.com/AkshaySavdekar/DataEngineeringProject-ZillowRapidApi/assets/119107773/2135d0f9-ecf6-4a7b-b9d2-708aa54eb28e)
+
+
 ## Zillow Rapid API Reference
 
 #### Get Location Data
